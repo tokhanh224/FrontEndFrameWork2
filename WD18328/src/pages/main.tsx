@@ -27,7 +27,7 @@ const Main: React.FC<Props> = ({ list, onDel }) => {
         <thead className="thead-dark">
           <tr>
             <th scope="col">ID</th>
-            <th scope="col">CLICK</th>
+            <th scope="col">CLICK ME</th>
             <th scope="col">LIST</th>
             <th scope="col">AUTHOR</th>
             {isAnyItemChecked && <th scope="col">ACTION</th>}
